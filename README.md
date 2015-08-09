@@ -1,5 +1,5 @@
-first little project
+first little project  - https://github.com/ekrul/google_page.git
 
 
-# google_page
+# create a copy of the google page
 
