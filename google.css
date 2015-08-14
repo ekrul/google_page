@@ -1,0 +1,50 @@
+body {
+ font-family: arial,sans-serif;
+}
+
+.header {
+  height: 80px;
+  font-size: 13px;
+  margin-top: 10px;
+  float:right;
+  margin-right: 30px;
+}
+
+#Anmelden {
+  height: 28px ;
+  padding: 0px 12px;
+  border-width: 1px;
+}
+
+#logo img {
+  height:95px;
+  width:269px;
+}
+
+#search_bar input {
+  width: 550px;
+  height: 22px;
+  border-color: #4683ea;
+}
+
+.submit {
+  background-color: #4683ea;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* richtig platzieren */
+
+#center {
+
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+  opacity:0.75;
+}
+
+a:hover {
+  text-decoration: underline;
+}
