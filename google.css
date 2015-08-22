@@ -1,13 +1,55 @@
+html,
 body {
- font-family: arial,sans-serif;
+   margin:0;
+   padding:0;
+   height:100%;
+   min-width: 100%;
 }
 
-.header {
-  height: 80px;
-  font-size: 13px;
-  margin-top: 10px;
+body {
+ font-family: arial,sans-serif;
+ min-width: 100%;
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+}
+
+header {
+  min-width: 100%;
+  width:100%;
+  height: auto;
+  position:relative;
+}
+
+
+header div {
+  min-width: 300px;
+  position:relative;
   float:right;
   margin-right: 30px;
+}
+
+header ul {
+  list-style-type: none;
+  font-size: 13px;
+  align-self: center;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 0.5em 0 0;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+#gapps {
+  vertical-align: middle;
 }
 
 #Anmelden {
@@ -16,35 +58,114 @@ body {
   border-width: 1px;
 }
 
+header .submit, footer input {
+  background-color: #4d90fe;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+}
+
+header .submit {
+  background-color: #4683ea;
+  border: 1px solid #4285f4;
+}
+
+#center {
+  clear: both;
+  min-width: 100%;
+  height:auto;
+  padding-top: 130px;
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
 #logo img {
   height:95px;
-  width:269px;
+  width: width:269px;
+}
+
+#search_bar {
+  text-align: center;
 }
 
 #search_bar input {
   width: 550px;
   height: 22px;
-  border-color: #4683ea;
 }
 
-.submit {
-  background-color: #4683ea;
-  color: #fff;
-  font-weight: bold;
+#search_buttons {
+  margin: 0 auto;
+  width: 250px;
 }
 
-/* richtig platzieren */
+#center ul {
+  list-style-type: none;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity: 0.75;
+}
+#center li {
+  display: inline-block;
+}
 
-#center {
-
+#center .submit {
+  color: #000000;
+  padding: 5px;
+  margin: 0 5 0 5;
+  border-radius: 2.5px;
+  border: 1px solid  #B8B8B8;
 }
 
 a {
   text-decoration: none;
   color:#000;
-  opacity:0.75;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height:auto;
+  background-color: #e5e5e5;
+  border-top: 1px solid #c6c6c6;
+  clear: both;
+}
+
+footer ul {
+  list-style-type: none;
+  font-size: 0.8em;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #767676;
+}
+
+
+footer input {
+  padding: 5px 15px;
+  border-radius: 2px;
+}
+
+#left {
+  float:left;
+}
+
+#right {
+  float: right;
+}
+
+footer a {
+  color:#767676;
 }

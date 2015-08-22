@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="de">
 <head>
   <meta charset="utf-8">
   <link href="google.css" rel="stylesheet" type="text/css">
@@ -7,32 +7,45 @@
   <title>MyGoogle</title>
 </head>
 <body>
-  <div class="header">
-    <table>
-      <tr>
-        <td style="padding:5px"><a href="https://mail.google.com/mail">Gmail</a></td>
-        <td style="padding:5px"><a href="https://www.google.de/imghp?hl=de&tab=wi&ei=T3fHVaSNBYONsAHXpadI&ved=0CBMQqi4oAQ">Bilder</a></td>
-        <td style="padding:5px"><a href="http://www.google.de/intl/de/options/"><img src="icon_gapps.png"/></a></td>
-        <td style="padding:5px"><input class="submit" id="Anmelden" type="submit" value="Anmelden"></td>
-<!-- noch Größe u Ausrichtung-->
-      </tr>
-    </table>
-  </div>
-  <div class="center">
-    <div id="logo"><img src="https://www.google.de/images/srpr/logo11w.png"/></div>
-    <div id="search_bar"><input type="text" name="search"></div>
-    <div id="search_buttons">
-      <table>
-        <tr>
-          <td><input class="submit" type="submit" value="Google-Suche"></td>
-          <td><input class="submit" type="submit" value="Auf gut Glück"></td>
-        </tr>
-      </table>
+<div id="container">
+  <header>
+    <div>
+      <ul>
+          <li class="opacity"><a href="https://mail.google.com/mail">Gmail</a></li>
+          <li class="opacity"><a href="https://www.google.de/imghp?hl=de&tab=wi&ei=T3fHVaSNBYONsAHXpadI&ved=0CBMQqi4oAQ">Bilder</a></td>
+          <li class="opacity"><a href="http://www.google.de/intl/de/options/"><img id="gapps" src="icon_gapps.png"/></a></li>
+          <li><input class="submit" id="Anmelden" type="submit" value="Anmelden"></li>
+      </ul>
     </div>
+  </header>
+  <div id="center">
+      <div id="logo"><img src="https://www.google.de/images/srpr/logo11w.png"/></div>
+      <div id="search_bar"><input type="text" name="search"></div>
+      <div id="search_buttons">
+          <ul>
+            <li><input class="submit" type="submit" value="Google-Suche"></li>
+            <li><input class="submit" type="submit" value="Auf gut Glück"></li>
+          </ul>
+      </div>
   </div>
-  <div class="footer">
-      <!-- noch Kram-->
-  </div>
-
+  <footer>
+      <ul id="left">
+        <li><a href="https://www.google.de/intl/de/ads/?fg=1">Werbeprogramme</a></li>
+        <li><a href="https://www.google.de/services/?fg=1">Unternehmen</a></li>
+        <li><a href="https://www.google.de/intl/de/about/">Über Google</a></li>
+      </ul>
+      <ul id="right">
+        <li><a href="https://www.google.de/intl/de/policies/privacy/?fg=1">Datenschutzerklärung</a></li>
+        <li><a href="https://www.google.de/intl/de/policies/terms/regional.html">Nutzungsbedingungen</a></li>
+        <li><a href="https://www.google.de/preferences?hl=de">Einstellungen</a></li>
+      </ul>
+      <br/>
+      <ul>
+        <li>Cookies helfen uns bei der Bereitstellung unserer Dienste. Durch die Nutzung unserer Dienste erklären Sie sich damit einverstanden, dass wir Cookies setzen.</li>
+        <li><a href="https://www.google.de/intl/de/policies/technologies/cookies/">Mehr erfahren</a></li>
+        <li><input type="submit" value="OK"></li>
+      </ul>
+  </footer>
+</div>
 </body>
 </html>
